@@ -1,0 +1,7 @@
+.search-movies-page-content>div:nth-child(1) {
+    width: 40%;
+}
+
+.search-movies-page-content>div:nth-child(2) {
+    width: 60%;
+}

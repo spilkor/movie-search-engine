@@ -1,0 +1,46 @@
+.movie-detail {
+    padding: 20px 10px;
+    height: max-content;
+    position: sticky;
+    top: 0;
+}
+
+.movie-grid-item:hover{
+    cursor: pointer;
+    outline: 1px solid black;
+}
+
+.imdb-logo {
+    font: 2em/1 Impact, HelveticaNeue-CondensedBold, sans-serif;
+    color: #000;
+    font-size: 20px;
+    text-shadow: 0 0 .15em #fff;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: bottom;
+    padding: .25em .35em;
+    border-radius: .15em;
+    background: radial-gradient(#ffffb8, #ce981d);
+}
+
+.wikipedia-logo {
+    margin: 5px 10px;
+}
+
+.first-paragraph {
+    margin-top: 10px;
+    line-height: 24px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 15px;
+    user-select: text!important;
+}
+
+.movie-detail-links {
+    margin: 5px 5px 5px auto;
+}
+
+.show-similar-button {
+    margin: 5px;
+    font-size: 1.1rem !important;
+}

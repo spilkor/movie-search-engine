@@ -1,0 +1,27 @@
+.display-flex {
+    display: flex;
+}
+
+.spinner {
+    text-align: center;
+    margin-top: 30%;
+}
+
+.app-button {
+    display:inline-block;
+    border:1px solid black;
+    background: white;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor:pointer;
+    vertical-align:middle;
+    padding: 7px 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-radius: 3px;
+}
+
+.app-button:active {
+    color: gray;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+}

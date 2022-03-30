@@ -1,0 +1,17 @@
+.movie-grid {
+    padding: 0 10px;
+}
+
+.movie-grid-item {
+    background: white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 5px 16px;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.movie-grid-item .movie-name {
+    font-size: 17px;
+}
